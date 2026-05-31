@@ -1,0 +1,11 @@
+project: Demo Android App
+
+paths:
+  baseline: baseline
+  actual: actual
+  report: reports/report.html
+  diff_dir: reports/diffs
+
+comparison:
+  threshold: 0.02
+  method: ssim
